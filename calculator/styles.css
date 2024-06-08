@@ -1,0 +1,41 @@
+body
+{
+  background-image: url("background.jpg");
+}
+.calculator {
+    width: 15%;
+    margin: 50px auto;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #display {
+    width: 95%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-align: right;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: yellow;
+    border-radius: 50%;
+    font-weight: 400;
+  }
+  button:hover {
+    background-color: hsl(238, 43%, 59%);
+    color: white;
+}
